@@ -198,20 +198,6 @@ Store Review History
 
 ---
 
-# 📸 Screenshots
-
-> Add screenshots here
-
-Home Page
-
-AI Review
-
-PDF Report
-
-Review History
-
----
-
 # 👩‍💻 Author
 
 **Kavya S Nair**
