@@ -106,3 +106,41 @@ textarea{
 .metric-card span{
     color:#1f2937 !important;
 }
+
+/* Sidebar buttons */
+
+section[data-testid="stSidebar"] .stButton > button{
+    background: #E8F5E9 !important;
+    color: #1F2937 !important;
+    border: none !important;
+}
+
+section[data-testid="stSidebar"] .stButton > button:hover{
+    background: #C8E6C9 !important;
+    color: #111827 !important;
+}
+/* File uploader */
+
+[data-testid="stFileUploader"]{
+    background: white !important;
+    color: #1F2937 !important;
+    border: 2px dashed #4F46E5 !important;
+}
+
+[data-testid="stFileUploader"] *{
+    color: #1F2937 !important;
+}
+/* Programming language dropdown */
+
+.stSelectbox div[data-baseweb="select"] > div{
+    background: white !important;
+    color: #1F2937 !important;
+}
+
+.stSelectbox svg{
+    color:#1F2937 !important;
+}
+textarea{
+    background: white !important;
+    color: #1F2937 !important;
+}
