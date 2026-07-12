@@ -143,10 +143,24 @@ section[data-testid="stSidebar"] .stButton > button:hover{
 }
 /* Programming language dropdown */
 
-.stSelectbox div[data-baseweb="select"]>div{
-    background:white !important;
-    color:#e5e8eb !important;
-    border-radius:10px !important;
+/* Programming Language Dropdown */
+
+.stSelectbox div[data-baseweb="select"] > div{
+    background:#F8FAFC !important;
+    color:#1F2937 !important;
+    border:2px solid #4F46E5 !important;
+    border-radius:12px !important;
+    min-height:48px !important;
+}
+
+.stSelectbox div[data-baseweb="select"] *{
+    color:#1F2937 !important;
+    background:transparent !important;
+}
+
+.stSelectbox svg{
+    fill:#4F46E5 !important;
+    color:#4F46E5 !important;
 }
 textarea{
     background:white !important;
