@@ -1,14 +1,15 @@
-/* Background */
+/* ===========================
+   BACKGROUND
+=========================== */
+
 .stApp{
     background: linear-gradient(135deg,#eef2ff,#f8fafc);
+    color:#1f2937;
 }
 
 /* Hide Streamlit Menu */
-#MainMenu{
-    visibility:hidden;
-}
 
-footer{
+#MainMenu{
     visibility:hidden;
 }
 
@@ -16,14 +17,42 @@ header{
     visibility:hidden;
 }
 
-/* Buttons */
+footer{
+    visibility:hidden;
+}
+
+/* ===========================
+   GLOBAL TEXT
+=========================== */
+
+html,
+body,
+div,
+span,
+p,
+label,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color:#1f2937 !important;
+}
+
+/* ===========================
+   BUTTONS
+=========================== */
+
 .stButton>button{
     width:100%;
     border-radius:12px;
     border:none;
-    font-weight:bold;
-    font-size:16px;
     padding:12px;
+    font-size:16px;
+    font-weight:600;
+    background:#4F46E5;
+    color:white !important;
     transition:0.3s;
 }
 
@@ -32,23 +61,49 @@ header{
     box-shadow:0 10px 20px rgba(0,0,0,.15);
 }
 
-/* Text Area */
+/* ===========================
+   TEXT AREA
+=========================== */
+
 textarea{
     border-radius:15px !important;
+    color:#111827 !important;
+    background:white !important;
 }
 
-/* File uploader */
+/* ===========================
+   FILE UPLOADER
+=========================== */
+
 [data-testid="stFileUploader"]{
     border-radius:15px;
     border:2px dashed #4F46E5;
     padding:20px;
+    background:white;
 }
 
-/* KPI Cards */
+/* ===========================
+   KPI CARDS
+=========================== */
+
 .metric-card{
     background:white;
+    color:#1f2937 !important;
     border-radius:20px;
     padding:20px;
     text-align:center;
     box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+/* Text inside cards */
+
+.metric-card h1,
+.metric-card h2,
+.metric-card h3,
+.metric-card h4,
+.metric-card h5,
+.metric-card h6,
+.metric-card p,
+.metric-card span{
+    color:#1f2937 !important;
 }
