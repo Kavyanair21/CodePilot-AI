@@ -145,7 +145,7 @@ section[data-testid="stSidebar"] .stButton > button:hover{
 
 .stSelectbox div[data-baseweb="select"]>div{
     background:white !important;
-    color:#1F2937 !important;
+    color:#e5e8eb !important;
     border-radius:10px !important;
 }
 textarea{
