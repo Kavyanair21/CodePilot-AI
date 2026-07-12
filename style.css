@@ -43,7 +43,6 @@ h6{
 /* ===========================
    BUTTONS
 =========================== */
-
 .stButton>button{
     width:100%;
     border-radius:12px;
@@ -51,14 +50,21 @@ h6{
     padding:12px;
     font-size:16px;
     font-weight:600;
-    background:#b5b2dd;
+    background:linear-gradient(90deg,#4F46E5,#7C3AED);
     color:white !important;
-    transition:0.3s;
+    transition:.3s;
 }
+
 
 .stButton>button:hover{
     transform:translateY(-3px);
     box-shadow:0 10px 20px rgba(205, 185, 185, 0.15);
+}
+
+/* Sidebar */
+
+section[data-testid="stSidebar"]{
+    background:#F8FAFC !important;
 }
 /* ===========================
    TEXT AREA
@@ -68,6 +74,9 @@ textarea{
     border-radius:15px !important;
     color:#989a9f !important;
     background:white !important;
+}
+section[data-testid="stSidebar"] *{
+    color:#1F2937 !important;
 }
 
 /* ===========================
@@ -122,25 +131,25 @@ section[data-testid="stSidebar"] .stButton > button:hover{
 /* File uploader */
 
 [data-testid="stFileUploader"]{
-    background: white !important;
-    color: #1F2937 !important;
-    border: 2px dashed #4F46E5 !important;
+    background:#ffffff !important;
+    border:2px dashed #4F46E5 !important;
+    border-radius:15px !important;
+    padding:20px !important;
 }
 
 [data-testid="stFileUploader"] *{
-    color: #1F2937 !important;
+    background:transparent !important;
+    color:#1F2937 !important;
 }
 /* Programming language dropdown */
 
-.stSelectbox div[data-baseweb="select"] > div{
-    background: white !important;
-    color: #1F2937 !important;
-}
-
-.stSelectbox svg{
+.stSelectbox div[data-baseweb="select"]>div{
+    background:white !important;
     color:#1F2937 !important;
+    border-radius:10px !important;
 }
 textarea{
-    background: white !important;
-    color: #1F2937 !important;
+    background:white !important;
+    color:#1F2937 !important;
+    border-radius:15px !important;
 }
